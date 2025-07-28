@@ -6,7 +6,7 @@ const todoSchema = new mongoose.Schema({
     required: true,
     trim: true
   },
-  complete: {
+  createBy: {
     type: String,
      required: true,
 
